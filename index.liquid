@@ -1,7 +1,42 @@
+<!------------------------------------------ TORCH FAT SECTION START ---------------------------------------->
+<div class="full-width">
+  <div class="wide-content group p-t-40 p-b-20 m-p-b-0">
+
     <!-------------------------- Show me only on Mobile START ------------------------------>
-    <h1 class="masthead-strap m-text-center fs-32 fs-32--20-vw caps m-t-60 tl-m-t-0 t-m-t-20 show-mobile">abc
+    <h1 class="masthead-strap m-text-center fs-32 fs-32--20-vw caps m-t-60 tl-m-t-0 t-m-t-20 show-mobile">
+      Torch fat.<br>
+      <em>Keep muscle</em>.<br>
+      Feel strong.
     </h1>
     <!-------------------------- Show me only on Mobile END ------------------------------>
 
+    <div class="group tl-flexcontainer-center tl-flex-justify-start">
 
-<h2>more stuff</h2>
+      <div id="product-main-image" class="m1c1 t1c2 tl2c5 _1c2 m-text-center m-relative-unset relative">
+          ​​{% assign blpProduct = all_products.burn-lab-pro %}
+          {% comment %}
+            Just take the first image
+          {% endcomment %}
+          <div class="carousel carousel-main">
+            {% include 'product-image-and-slides' normal_or_lazy: 'lazy' %}​​
+          </div>
+          
+          {% include 'product-icons' %}
+
+          <div class="carousel carousel-nav">
+            {% include 'product-image-and-slides' normal_or_lazy: 'normal' %}​​
+          </div>
+      </div>
+      
+      <div class="m1c1 t1c2 tl3c5 _1c2 p-l-50 t-p-l-20 m-p-l-0">
+
+        <!---------------------- Show me only on Desktop START --------------------->
+        <h1 class="masthead-strap m-text-center fs-32 fs-32--10-vw caps m-t-60 tl-m-t-0 t-m-t-20 hide-mobile">
+          Torch fat.<br>
+          <em>Keep muscle</em>.<br>
+          Feel strong.
+        </h1>
+        <p class="hide-mobile">
+          Achieve your body goals. Quicker and easier. With the world's most advanced fat loss support.
+        </p>
+        <!---------------------- Show me only on Desktop END --------------------->
